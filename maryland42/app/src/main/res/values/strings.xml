@@ -8,4 +8,9 @@
     <string name="maryland">Maryland</string>
     <string name="booking_details">Booking details</string>
     <string name="departure_time">DEPARTURE TIME</string>
+    <string name="_12_45_pm">12:45 PM</string>
+    <string name="seats">SEATS</string>
+    <string name="_4_seats_available">4 Seats Available</string>
+    <string name="n_0_00">N 0.00</string>
+    <string name="trip_fare">TRIP FARE</string>
 </resources>
