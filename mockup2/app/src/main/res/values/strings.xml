@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">mockup</string>
+    <string name="hanan">hanan</string>
+    <string name="password">PASSWORD</string>
+    <string name="email">EMAIL</string>
+    <string name="don_t_have_an_account">DON\'T HAVE AN ACCOUNT?</string>
+    <string name="sign_up">SIGN UP</string>
+    <string name="ACCCOUNT">DON\'T HAVE AN ACCOUNT</string>
+    <string name="sign_up">SIGN UP</string>
+    <string name="acc">DON\'T HAVE AN ACCOUNT?</string>
+</resources>

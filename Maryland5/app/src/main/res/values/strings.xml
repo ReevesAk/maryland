@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Maryland5</string>
+    <string name="the_start_date_tells_us_when_you_will_like_to_start_joining_our_shuttles_for_your_journeys">*The start date tells us when you will like to start/joining our shuttles for your journeys</string>
+    <string name="multiline_text_by_n">Multiline Text by N
+    The start date tells us when you will like to start\n joining our shuttles for your journeys
+    </string>
+</resources>

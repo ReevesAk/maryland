@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f44336">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:id="@+id/icon"
+        android:src="@drawable/ic_snake"
+        android:layout_marginTop="55dp"
+        android:layout_marginBottom="60dp"/>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edit_query"
+        android:hint="@string/username"
+        android:textColorHint="#bdbdbd"
+        android:textAlignment="center"
+        android:layout_marginBottom="20dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edit_query2"
+        android:hint="@string/dots"
+        android:textColorHint="#bdbdbd"
+        android:textAlignment="center"
+        android:layout_marginBottom="20dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonPanel"
+        android:text="@string/sign_in"
+        android:textColor="#f44336"
+        android:background="#fafafa"
+        android:layout_marginBottom="20dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/text"
+        android:text="@string/or"
+        android:textColor="#e0e0e0"
+        android:textAlignment="center"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonPanel2"
+        android:text="@string/via_facebook"
+        android:textColor="#e0e0e0"
+        android:background="#f44336"/>
+
+
+</LinearLayout>
+

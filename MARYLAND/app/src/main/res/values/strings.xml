@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MARYLAND</string>
+    <string name="maryland">Maryland</string>
+    <string name="drop_off_bus_stop">Drop-off bus stop</string>
+    <string name="enter_a_bus_stop_to_find_a_matching_route"> Enter a bus stop to find a matching route</string>
+
+
+</resources>

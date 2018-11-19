@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3949ab"
+    android:orientation="vertical">
+    
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/icon"
+        android:background="#9fa8da"
+        android:src="@mipmap/ic_launcher_foreground"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"/>
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edit_query"
+            android:hint="@string/email_address"
+            android:drawableStart="@drawable/ic_mail"
+            android:drawablePadding="20dp"
+            android:padding="15dp"
+            android:layout_marginTop="70dp"
+            android:layout_marginBottom="20dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edit_query2"
+            android:hint="@string/password"
+            android:drawableStart="@drawable/ic_padlock"
+            android:drawablePadding="20dp"
+            android:layout_marginBottom="70dp"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonPanel"
+            android:background="#40c4ff"
+            android:text="@string/authenticate"
+            android:textColor="#e1f5fe"/>
+
+
+
+</LinearLayout>
+
+
+

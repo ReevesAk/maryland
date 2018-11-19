@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">practice</string>
+    <string name="email_address">Email address:</string>
+    <string name="password">Password</string>
+    <string name="authenticate">Authenticate</string>
+    <string name="my">MY</string>
+    <string name="hanan">HANAN</string>
+    <string name="hour">HOUR</string>
+    <string name="benin">BENIN</string>
+    <string name="dots">........</string>
+    <string name="username">USERNAME</string>
+    <string name="username">USERNAME</string>
+    <string name="dots">........</string>
+    <string name="or">-or-</string>
+    <string name="sign_in">SIGN IN</string>
+    <string name="via_facebook">VIA FACEBOOK</string>
+    <string name="sign_up">Sign up</string>
+    <string name="who_are_you">WHO ARE YOU?</string>
+    <string name="parent">PARENT</string>
+    <string name="child">CHILD</string>
+    <string name="teacher">TEACHER</string>
+    <string name="Username">Username</string>
+    <string name="email">Email</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="signup">SIGNUP</string>
+    <string name="already_have_an_account">Already have an account.</string>
+    <string name="login_here">Login here</string>
+</resources>

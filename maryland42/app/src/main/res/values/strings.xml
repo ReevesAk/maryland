@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">maryland4</string>
+    <string name="pick_up">PICK-UP</string>
+    <string name="ikeja_victoria_island">Ikeja - Victoria Island</string>
+    <string name="route">ROUTE</string>
+    <string name="add_a_drop_off_point">Add a drop-off point</string>
+    <string name="drop_off">DROP-OFF</string>
+    <string name="maryland">Maryland</string>
+    <string name="booking_details">Booking details</string>
+    <string name="departure_time">DEPARTURE TIME</string>
+</resources>

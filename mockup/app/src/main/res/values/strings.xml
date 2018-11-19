@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">mockup</string>
+    <string name="Tickly">Tickly</string>
+    <string name="free">FREE</string>
+    <string name="sign_up_below_and_create_your">sign up below and create your</string>
+    <string name="account">account</string>
+    <string name="set_a_password">Set a password</string>
+    <string name="email_address">Email address</string>
+    <string name="last_name">Last name</string>
+    <string name="first_name">First name</string>
+    <string name="create_account">CREATE ACCOUNT</string>
+    <string name="or_sign_up_with">Or sign up with......</string>
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="sign_in">Sign in</string>
+</resources>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+
+    <ImageButton
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_go_back_left_arrow"
+        android:background="#fafafa"
+        android:layout_margin="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Route details"
+        android:textSize="25sp"
+        android:textColor="#212121"
+        android:layout_margin="6dp"/>
+
+   </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/enter_a_bus_to_find_a_matching_route"
+        android:textSize="15sp"
+        android:layout_marginStart="5dp"
+        android:layout_marginBottom="5dp"/>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/maryland"
+        android:drawableStart="@drawable/ic_circle"
+        android:padding="15dp"
+        android:drawablePadding="15dp"
+        android:layout_margin="8dp"
+        android:background="@drawable/rounded_edit" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/stroke"
+        android:textColor="#9ccc65"
+        android:paddingStart="25dp"
+        android:textSize="20sp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/isolo"
+        android:textColor="#9ccc65"
+        android:drawableStart="@drawable/ic_circle"
+        android:padding="15dp"
+        android:drawablePadding="15dp"
+        android:drawableTint="#9ccc65"
+        android:layout_margin="8dp"
+        android:background="@drawable/rounded_edit2"
+        android:layout_marginBottom="30dp"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_route_2"
+        android:layout_marginTop="40dp"
+        android:tint="#9e9e9e"
+        android:layout_marginBottom="15dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/no_matching_routes"
+        android:textStyle="bold"
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/there_are_no_buses_which_routes_go"
+        android:textColor="#9e9e9e"
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/from_maryland_to_isolo"
+        android:textColor="#9e9e9e"
+        android:gravity="center"/>
+
+
+
+</LinearLayout>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#212121"
+        android:text="@string/letoya"
+        android:textSize="60sp"
+        android:textStyle="italic"
+        android:textAlignment="center"
+        android:layout_marginTop="70dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Everyday crying baby"
+        android:textSize="17sp"
+        android:textAlignment="center"
+        android:layout_marginBottom="20dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Connect with Facebook"
+        android:id="@+id/buttonPanel"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:paddingBottom="30dp"
+        android:paddingTop="30dp"
+        android:background="#283593"
+        android:textColor="#e8eaf6"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="5dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/connect_with_twitter"
+        android:textSize="20sp"
+        android:paddingBottom="30dp"
+        android:paddingTop="30dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:background="#2196f3"
+        android:textColor="#fafafa"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/sign_up_with_email"
+        android:textSize="20sp"
+        android:paddingBottom="30dp"
+        android:paddingTop="30dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:textColor="#f44336"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/already_have_an_account"
+            android:textColor="#ffebee"
+            android:layout_marginEnd="9dp"
+            android:layout_marginStart="50dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sign_in_now"
+            android:textColor="#ffebee"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+    </LinearLayout>

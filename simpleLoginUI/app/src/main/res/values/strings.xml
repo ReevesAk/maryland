@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">simpleLoginUI</string>
+    <string name="username">username</string>
+    <string name="layout">password</string>
+    <string name="password">password</string>
+    <string name="go_to_registration_page">GO TO REGISTRATION PAGE</string>
+    <string name="go_to_registration_page">GO TO REGISTRATION PAGE</string>
+    <string name="login">LOGIN</string>
+    <string name="login">LOGIN</string>
+</resources>

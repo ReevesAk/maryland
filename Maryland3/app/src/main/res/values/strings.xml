@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Maryland3</string>
+    <string name="herbert_macaulay">Herbert Macaulay</string>
+    <string name="drop_off">DROP-OFF</string>
+    <string name="maryland">Maryland</string>
+    <string name="pick_up">PICK-UP</string>
+    <string name="route">ROUTE</string>
+    <string name="ikeja_victoria_island">Ikeja - Victoria Island</string>
+    <string name="booking_details">Booking details</string>
+    <string name="trip_fare">TRIP FARE</string>
+    <string name="departure_time">DEPARTURE TIME</string>
+    <string name="seats">SEATS</string>
+    <string name="_12_45_pm">12:45 PM</string>
+    <string name="n450_00">N450.00</string>
+    <string name="_4_seats_available">4 Seats Available</string>
+    <string name="n0_00">N0.00</string>
+</resources>
