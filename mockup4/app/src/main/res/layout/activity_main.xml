@@ -24,9 +24,8 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Connect with Facebook"
+        android:text="@string/connect_with_facebook"
         android:id="@+id/buttonPanel"
-        android:textStyle="bold"
         android:textSize="20sp"
         android:paddingBottom="30dp"
         android:paddingTop="30dp"
