@@ -7,4 +7,5 @@
     <string name="no_matching_routes">NO MATCHING ROUTES</string>
     <string name="there_are_no_buses_which_routes_go">There are no buses which routes go</string>
     <string name="from_maryland_to_isolo">from Maryland to Isolo</string>
+    <string name="route_details">Route details</string>
 </resources>

@@ -19,7 +19,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Ride days"
+            android:text="@string/ride_days"
             android:textSize="25sp"
             android:textColor="#212121"
             android:layout_margin="2dp"/>
@@ -38,37 +38,206 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="START DATE"
+        android:text="@string/start_date"
         android:textSize="16sp"
         android:layout_margin="6dp"/>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Tap to pick a start date"
+        android:text="@string/tap_to_pick_a_start_date"
         android:textColor="#212121"
         android:layout_marginStart="10dp"/>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="END DATE"
+        android:text="@string/end_date"
         android:textSize="16sp"
         android:layout_margin="6dp"/>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Tap to pick an end date"
+        android:text="@string/tap_to_pick_an_end_date"
         android:textColor="#212121"
         android:layout_marginStart="10dp"/>
         
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/the_start_date_tells_us_when_you_will_like_to_start_joining_our_shuttles_for_your_journeys"
-            android:textSize="10sp"
-            android:layout_marginStart="10dp"/>
+            android:lines="2"
+            android:text="@string/the_start_date_tells_us_when_you_will_like_to_start_n_joining_our_shuttles_for_your_journeys"
+            android:drawableEnd="@drawable/ic_android"
+            android:textSize="14sp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"/>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fafafa"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/text"
+            android:text="@string/days_of_the_week"
+            android:layout_marginStart="30dp"/>
+        
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonPanel"
+            android:layout_below="@id/text"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="13dp"
+            android:hint="@string/every_day"
+            android:background="@drawable/rounded_button2"
+            android:textColorHint="#9e9e9e"
+            android:textAllCaps="false"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonPanel2"
+            android:layout_toEndOf="@id/buttonPanel"
+            android:layout_below="@id/text"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/rounded_button"
+            android:layout_marginStart="27dp"
+            android:hint="@string/weekdays"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonPanel3"
+            android:layout_toEndOf="@id/buttonPanel2"
+            android:background="@drawable/rounded_button2"
+            android:hint="@string/custom"
+            android:textColorHint="#9e9e9e"
+            android:layout_below="@id/text"
+            android:layout_marginTop="16dp"
+            android:layout_marginStart="27dp"/>
+
+        <TextView
+            android:layout_width="32dp"
+            android:layout_height="30dp"
+            android:id="@id/text2"
+            android:text="@string/mon"
+            android:textColor="#64dd17"
+            android:layout_below="@id/buttonPanel"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="30dp"
+            android:background="@drawable/rounded_textview"
+            android:gravity="center"/>
+
+        <TextView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:id="@+id/text3"
+            android:text="@string/tue"
+            android:textColor="#64dd17"
+            android:layout_below="@id/buttonPanel"
+            android:layout_toEndOf="@id/text2"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="9dp"
+            android:background="@drawable/rounded_textview"
+            android:gravity="center"/>
+
+        <TextView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:id="@+id/text4"
+            android:text="@string/wed"
+            android:textColor="#64dd17"
+            android:layout_below="@id/buttonPanel"
+            android:layout_toEndOf="@id/text3"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="9dp"
+            android:background="@drawable/rounded_textview"
+            android:gravity="center"/>
+
+        <TextView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:id="@+id/text5"
+            android:text="@string/thu"
+            android:textColor="#64dd17"
+            android:layout_below="@id/buttonPanel2"
+            android:layout_toEndOf="@id/text4"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="9dp"
+            android:background="@drawable/rounded_textview"
+            android:gravity="center"/>
+
+        <TextView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:id="@+id/text6"
+            android:text="@string/thu"
+            android:textColor="#64dd17"
+            android:layout_below="@id/buttonPanel2"
+            android:layout_toEndOf="@id/text5"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="9dp"
+            android:background="@drawable/rounded_textview"
+            android:gravity="center"/>
+
+        <TextView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:id="@+id/text7"
+            android:text="@string/fri"
+            android:textColor="#64dd17"
+            android:layout_below="@id/buttonPanel2"
+            android:layout_toEndOf="@id/text6"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="9dp"
+            android:background="@drawable/rounded_textview"
+            android:gravity="center"/>
+
+        <TextView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:id="@+id/text8"
+            android:text="@string/sat"
+            android:layout_below="@id/buttonPanel2"
+            android:layout_toEndOf="@id/text7"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="9dp"
+            android:background="@drawable/rounded_textview2"
+            android:gravity="center"/>
+
+        <TextView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:id="@+id/text9"
+            android:text="@string/sun"
+            android:layout_below="@id/buttonPanel3"
+            android:layout_toEndOf="@id/text8"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="9dp"
+            android:background="@drawable/rounded_textview2"
+            android:gravity="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/text10"
+            android:layout_below="@id/text2"
+            android:textSize="14sp"
+            android:text="@string/we_send_reminders_on_your_trip_days_you_can_n_change_these_days_anytime"
+            android:lines="2"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="35dp"/>
+
+
+    </RelativeLayout>
+
+
         
 
 

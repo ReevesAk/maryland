@@ -1,7 +1,24 @@
 <resources>
     <string name="app_name">Maryland5</string>
-    <string name="the_start_date_tells_us_when_you_will_like_to_start_joining_our_shuttles_for_your_journeys">*The start date tells us when you will like to start/joining our shuttles for your journeys</string>
-    <string name="multiline_text_by_n">Multiline Text by N
-    The start date tells us when you will like to start\n joining our shuttles for your journeys
-    </string>
+    <string name="the_start_date_tells_us_when_you_will_like_to_start_n_joining_our_shuttles_for_your_journeys">* The start date tells us when you will like to start  joining our shuttles for your journeys</string>
+    <string name="tap_to_pick_an_end_date">Tap to pick an end date</string>
+    <string name="days_of_the_week">DAYS OF THE WEEK</string>
+    <string name="every_day">Every Day</string>
+    <string name="ride_days">Ride days</string>
+    <string name="weekdays">Weekdays</string>
+    <string name="custom">Custom</string>
+    <string name="mon">MON</string>
+    <string name="tue">TUE</string>
+    <string name="wed">WED</string>
+    <string name="we_send_reminders_on_your_trip_days_you_can_change_these_days_anytime">We send reminders on your trip days. You can change these days anytime</string>
+    <string name="we_send_reminders_on_your_trip_days_you_can_n_change_these_days_anytime">*We send reminders on your trip days,. You can   change these days anytime</string>
+    <string name="thu">THU</string>
+    <string name="thu">THU</string>
+    <string name="fri">FRI</string>
+    <string name="sat">SAT</string>
+    <string name="sun">SUN</string>
+    <string name="end_date">END DATE</string>
+    <string name="tap_to_pick_a_start_date">Tap to pick a start date</string>
+    <string name="start_date">START DATE</string>
+
 </resources>
